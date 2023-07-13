@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #121214;
+  display: grid;
+  justify-content: center;
+  padding: 72px 104px;
+}
+
+header h1 {
+  color: #02799d;
+  font-size: 58px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 900;
+  line-height: normal;
+}
+header p {
+  color: #e1e1e6;
+  font-size: 32px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  line-height: normal;
+
+  padding-bottom: 63px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  row-gap: 44px;
+  column-gap: 60px;
+}
+
+.card {
+  background-color: #202024;
+  border-radius: 8px;
+  border: 2px solid #323238;
+  overflow: hidden;
+}
+
+.card h2 {
+  color: #e1e1e6;
+
+  font-size: 35px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 900;
+  line-height: normal;
+  padding: 24px 32px 0;
+}
+
+.card p {
+  color: #c4c4cc;
+
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  line-height: normal;
+
+  padding: 24px 32px 32px;
+}
